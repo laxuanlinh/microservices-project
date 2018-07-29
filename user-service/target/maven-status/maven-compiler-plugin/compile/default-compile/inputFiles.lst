@@ -1,0 +1,10 @@
+/Users/mac/Projects/microservices-project/user-service/src/main/java/com/example/accountservice/AccountServiceApplication.java
+/Users/mac/Projects/microservices-project/user-service/src/main/java/com/example/accountservice/dao/UserRepository.java
+/Users/mac/Projects/microservices-project/user-service/src/main/java/com/example/accountservice/services/CustomUserDetailService.java
+/Users/mac/Projects/microservices-project/user-service/src/main/java/com/example/accountservice/config/ResourceServerConfiguration.java
+/Users/mac/Projects/microservices-project/user-service/src/main/java/com/example/accountservice/models/User.java
+/Users/mac/Projects/microservices-project/user-service/src/main/java/com/example/accountservice/config/AuthorizationServerConfig.java
+/Users/mac/Projects/microservices-project/user-service/src/main/java/com/example/accountservice/resources/UserResource.java
+/Users/mac/Projects/microservices-project/user-service/src/main/java/com/example/accountservice/services/UserService.java
+/Users/mac/Projects/microservices-project/user-service/src/main/java/com/example/accountservice/models/CustomUserDetail.java
+/Users/mac/Projects/microservices-project/user-service/src/main/java/com/example/accountservice/models/Role.java

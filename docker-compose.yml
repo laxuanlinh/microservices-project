@@ -10,3 +10,10 @@ services:
       - 1111:1111
     depends_on:
       - config-server
+  # user-service:
+  #   build: ./user-service
+  #   ports: 
+  #     - 8081:8081
+  #   depends_on:
+  #     - config-server
+  #     - service-registry

@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.example.accountservice.UserServiceApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 84.428 sec - in com.example.accountservice.UserServiceApplicationTests
