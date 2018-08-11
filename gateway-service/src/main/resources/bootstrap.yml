@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: gateway-service
+  profile:
+    active: default
+  cloud:
+    config:
+      uri: http://config-server:8888
+
+zuul:
+#  ignoredServices: '*'
+  routes:
+    application:
+      path: /user-service/**
+      serviceId: user-service
+      sensitive-headers: Cookie,Set-Cookie

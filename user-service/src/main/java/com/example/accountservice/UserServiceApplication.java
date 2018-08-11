@@ -10,13 +10,13 @@ import org.springframework.security.config.annotation.authentication.builders.Au
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 
 @SpringBootApplication
-@EnableWebSecurity
 @EnableDiscoveryClient
-public class AccountServiceApplication {
+@EnableWebSecurity
+public class UserServiceApplication {
 
 	public static void main(String[] args) {
 
-		SpringApplication.run(AccountServiceApplication.class, args);
+		SpringApplication.run(UserServiceApplication.class, args);
 	}
 
     @Bean

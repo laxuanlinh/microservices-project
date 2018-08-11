@@ -10,6 +10,13 @@ services:
       - 1111:1111
     depends_on:
       - config-server
+  gateway-service:
+    build: ./gateway-service
+    ports: 
+      - 8080:8080
+    depends_on:
+      - config-server
+      - service-registry
   # user-service:
   #   build: ./user-service
   #   ports: 
@@ -17,3 +24,4 @@ services:
   #   depends_on:
   #     - config-server
   #     - service-registry
+  #     - gateway-service 

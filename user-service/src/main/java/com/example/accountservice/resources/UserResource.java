@@ -11,7 +11,6 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/userss")
 public class UserResource {
 
     //TODO: add new unit test
@@ -24,9 +23,13 @@ public class UserResource {
     }
 
 
-    @RequestMapping(value = "", method = RequestMethod.GET)
+    @RequestMapping(value = "/api/userss", method = RequestMethod.GET)
     public ResponseEntity greeting(){
-//        List<User> users = userService.getAccounts();
+        return new ResponseEntity(HttpStatus.OK);
+    }
+
+    @RequestMapping(value = "/linh", method = RequestMethod.GET)
+    public ResponseEntity metrics(){
         return new ResponseEntity(HttpStatus.OK);
     }
 

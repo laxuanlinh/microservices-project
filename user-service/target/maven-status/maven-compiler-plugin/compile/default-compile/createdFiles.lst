@@ -1,0 +1,10 @@
+com/example/accountservice/config/AuthorizationServerConfig.class
+com/example/accountservice/config/ResourceServerConfiguration.class
+com/example/accountservice/resources/UserResource.class
+com/example/accountservice/dao/UserRepository.class
+com/example/accountservice/models/Role.class
+com/example/accountservice/UserServiceApplication.class
+com/example/accountservice/services/UserService.class
+com/example/accountservice/models/CustomUserDetail.class
+com/example/accountservice/services/CustomUserDetailService.class
+com/example/accountservice/models/User.class
